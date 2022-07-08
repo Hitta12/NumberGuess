@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1.2.3.</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div id="game-container">
+        <div id="game-headers">
+          <h1 id="title">1.2.3.</h1>
+          <h3 id="sub-title">Number Guessing Game</h3>
+        </div>
+        <div id="game-info">
+          <div id="scores">
+            <div class="score-flex">
+              <h4>Best</h4>
+              <p id="highscore">0</p>
+            </div>
+            <div class="score-flex">
+              <h4>Current</h4>
+              <p id="currentscore">0</p>
+            </div>
+          </div>
+          <p id="feedback">Guess a whole number between 1 and 100</p>
+          <p id="history">-</p>
+          <p id="time">00:00:00</p>
+        </div>
+        <div id="game-action">
+          <input type="text" name="guess" id="guess" disabled />
+          <button id="guess-btn">Start</button>
+          <button id="quit-btn">Reset</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
